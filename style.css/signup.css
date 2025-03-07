@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Farhang;
+    src: url('farhangfarhang/webfonts/fonts/woff2/Farhang-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+  
+body {
+    background-color: #0c162d;
+    color: white;
+    font-family: "Farhang", sans-serif;
+    text-align: center;
+}
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #0c162d;
+    border-radius: 10px;
+}
+h1 {
+    color: #d4a017;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.golden-btn {
+    background-color: #d4a017;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.golden-btn:hover {
+    background-color: #b58900;
+}
+.link {
+    color: #5294e2;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
